@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 excerpt: An example post that shows the various Markdown and HTML constructs supported by hydeX.
+comments: true
 ---
 
 
