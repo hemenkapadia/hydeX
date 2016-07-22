@@ -11,10 +11,10 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    {% if site.showexcerpt %}
     {{ post.excerpt }}
+    {% endif %}
   </div>
   {% endfor %}
 </div>
