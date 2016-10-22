@@ -32,16 +32,18 @@
  */
 
 html {
-  font-family: "Droid Serif", serif;
+  font-family: "PT Serif", serif;
+  line-height: 1.5rem;
 }
 @media (min-width: 47.95em){
   html {
     font-size: 16px;
   }
 }
-@media (min-width: 57.95em) {
+@media (min-width: 63.95em) {
   /*
-   * 58em = 928 px on my machine
+   * 58em = 928 px on my machine (so we used 57.95)
+   * 64em = 1024 px on my machine (so we used 63.95)
    */
   html {
     font-size: 20px;
