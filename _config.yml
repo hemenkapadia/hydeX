@@ -72,7 +72,7 @@ whitelist:                      []
 gems:                           ["jekyll-sitemap", "jekyll-gist", "jekyll-paginate"]
 
 # Theme configurations
-theme:                          theme-base-00
+pooletheme:                          theme-base-00
 layout:                         normal                        # [normal | reverse]
 sidemenutype:                   nonsticky                     # [nonsticky | sticky]
 showexcerpt:                    false

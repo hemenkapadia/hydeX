@@ -335,9 +335,6 @@ tbody tr:nth-child(odd) th {
    margin-top: 0.25rem;
    margin-bottom: 0.25rem;
  }
- .not-first {
-   margin-top: 1rem;
- }
 
 .page,
 .post {
@@ -393,9 +390,10 @@ tbody tr:nth-child(odd) th {
   border-bottom-style: solid;
   border-bottom-color: #9a9a9a;
   margin-bottom: 0.25rem;
+  margin-top: 3rem;
 }
-.not-first{
-  margin-top: 0.5rem;
+.first{
+  margin-top: 0 !important;
 }
 
 .post-list-date {
@@ -403,6 +401,7 @@ tbody tr:nth-child(odd) th {
   font-size: 0.8rem;
   color: #9a9a9a;
 }
+
 @media (min-width: 29.8em) {
   .post-list-date {
     display: inline-block;
