@@ -390,7 +390,6 @@ tbody tr:nth-child(odd) th {
   line-height: 1.25rem;
   margin-top: 0.15rem;
 }
-
 .post-list-year {
   display: block;
   font-size: 1.2rem;
@@ -403,11 +402,15 @@ tbody tr:nth-child(odd) th {
 .first{
   margin-top: 0 !important;
 }
-
 .post-list-date {
   display: block;
   font-size: 0.8rem;
   color: #9a9a9a;
+}
+
+/* Tags Archive */
+.tag-archive {
+  margin-top: 0;
 }
 
 @media (min-width: 29.8em) {
