@@ -3,7 +3,14 @@ layout: post
 title: Example content
 excerpt: An example post that shows the various Markdown and HTML constructs supported by hydeX.
 comments: true
-tags: [Jekyll, theme]
+tags:
+  - Jekyll
+  - theme
+  - Zoomba
+  - Tag 3
+  - Tag 4
+  - Something good
+  - Testing here
 ---
 
 

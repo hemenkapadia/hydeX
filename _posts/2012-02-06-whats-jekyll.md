@@ -3,7 +3,20 @@ layout: post
 title: What's Jekyll?
 excerpt: This post gives a brief introduction to Jekyll.
 comments: true
-tags: [Jekyll, blog]
+tags:
+  - Jekyll
+  - Blog Platform
+  - A Really Long tag
+  - Tag 1
+  - Tag 2
+  - Tag 3
+  - Some more tags
+  - Tag 4
+  - More tags
+  - Tag 5
+  - Tag 6
+  - Finally very long tags
+  - End this
 ---
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
