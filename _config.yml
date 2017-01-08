@@ -78,3 +78,6 @@ sidemenutype:                   nonsticky              # [nonsticky | sticky]
 showexcerpt:                    true
 forkmeribbon:                   show                   # [show|hide]
 rel_post_count:                 3
+
+# Comments - Disqus Configuration
+disqus_src:                     example.disqus.com     # replace this
