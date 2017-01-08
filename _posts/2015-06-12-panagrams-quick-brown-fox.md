@@ -3,7 +3,11 @@ layout: post
 title: Panagram text, quick brown fox
 excerpt: Legenrdy tale about the quick brown fox and its thrilling adventures
 comments: true
-tags: ['brown fox', adventures, thriller, fiction]
+tags:
+    - Ubuntu
+    - 'brown-fox'
+    - wizard
+    - zephyr 
 ---
 
 The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.
