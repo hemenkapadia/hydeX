@@ -81,3 +81,6 @@ rel_post_count:                 3
 
 # Comments - Disqus Configuration
 disqus_src:                     example.disqus.com     # replace this
+
+# Comments - Google Analytics Configuration
+ga_id:                          UA-00000000-0          # replace this
