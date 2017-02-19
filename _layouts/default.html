@@ -14,7 +14,16 @@
     {% if site.ga_enable == true %}
       {% include analytics.html %}
     {% endif %}
-    
+
+    <script>
+      $(document).ready(function() {
+        $('.sidebar-burger-icon').on('click', function() {
+          $('.sidebar').toggleClass('menu-open');
+          $('.sidebar-burger-icon > i').toggleClass('fa-rotate-90');
+        });
+      });
+    </script>
+
   </body>
 </html>
 

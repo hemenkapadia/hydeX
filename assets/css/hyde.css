@@ -36,13 +36,17 @@ html {
   line-height: 1.5rem;
 }
 @media (min-width: 52.95em){
+  /*
+   * 53em = 848 px on my machine.
+   * This is an important point where we change to desktop layout
+   */
   html {
     font-size: 16px;
   }
 }
 @media (min-width: 63.95em) {
   /*
-   * 58em = 928 px on my machine (so we used 57.95)
+   * 58em = 928 px on my machine (so we used 57.95) 
    * 64em = 1024 px on my machine (so we used 63.95)
    */
   html {
@@ -60,10 +64,15 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
   font-family: "Oswald", sans-serif;
+  max-height: 4rem;
+  transition: max-height 1s;
+}
+.sidebar.menu-open {
+  max-height: 10rem;
 }
 @media (min-width: 52.95em){
   .sidebar {
@@ -73,8 +82,11 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    padding-top: 2rem;
+    max-height: 2000rem;
   }
 }
+
 
 /* Sidebar links */
 .sidebar a {
@@ -90,7 +102,7 @@ html {
 }
 
 .lead {
-  display: none;
+  display: none
 }
 @media (min-width: 52.95em){
   .lead {
@@ -101,6 +113,11 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+}
+@media (max-width: 52.95em) {
+  .sidebar-nav {
+    margin-bottom: 0.5rem;
+  }
 }
 .sidebar-nav-item {
   display: block;
@@ -113,12 +130,18 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+@media (max-width: 52.95em) {
+  .sidebar-nav-item {
+    display: inline;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+} 
 
 .sidebar-nav-social-container-followme {
   margin-bottom: 0.3rem;
 }
-@media (max-width: 52.95em){
-  .sidebar-nav-item,
+@media (max-width: 52.95em) {
   .sidebar-nav-social-container-followme {
     display: none;
   }
@@ -127,6 +150,27 @@ a.sidebar-nav-item:focus {
 /* sidebar github-forkme */
 .github-forkme svg{
   color: #202020;
+  width: 4rem;
+  height: 4rem;
+}
+@media (max-width: 24.95em) {
+  .github-forkme {
+    display: none;
+  }
+}
+
+/* sidebar burger menu icon */
+.sidebar-burger-icon {
+  position: absolute;
+  top: 1rem;
+  left: 0.75rem;
+  color: #fff;
+  cursor: pointer;
+}
+@media (min-width: 52.95em) {
+  .sidebar-burger-icon {
+    display: none;
+  }
 }
 
 
