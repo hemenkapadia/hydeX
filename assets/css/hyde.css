@@ -147,9 +147,11 @@ a.sidebar-nav-item:focus {
   }
 }
 
-.menu-closed {
-  position: relative;
-  z-index: -1;
+@media (max-width: 52.95em) {
+  .menu-closed {
+    position: relative;
+    z-index: -1;
+  }
 }
 
 /* sidebar github-forkme */
