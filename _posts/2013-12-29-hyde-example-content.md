@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hyde - HTML and Markdown example content
-excerpt: A template showcase post for Markdown and HTML constructs supported by Hyde. Must read for anyone who wants to use this template for their Jekyll site.
+excerpt: A showcase post for Markdown and HTML constructs supported by Hyde. Must read for anyone who wants to use this template for their Jekyll site.
 comments: true
 tags:
   - Jekyll
