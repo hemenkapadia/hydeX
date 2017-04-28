@@ -75,7 +75,7 @@ gems:                           ["jekyll-sitemap", "jekyll-gist", "jekyll-pagina
 pooletheme:                     theme-base-00
 layout:                         normal                 # [normal | reverse]
 sidemenutype:                   nonsticky              # [nonsticky | sticky]
-showexcerpt:                    true
+showexcerpt:                    true                   # [true | false]
 rel_post_count:                 3
 
 # Fork Me ribbon
