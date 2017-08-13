@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post exceprts on the blog main page.
+title: Post exceprts on the blog main page
 excerpt: Configure hydeX's main page to optionally show excerpts in the post listing.  
 comments: true
 tags:
