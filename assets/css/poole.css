@@ -389,6 +389,7 @@ tbody tr:nth-child(odd) th {
   font-size: 0.75rem;
   line-height: 1.25rem;
   margin-top: 0.15rem;
+  margin-bottom: 1.5rem;
 }
 .post-list-year {
   display: block;
