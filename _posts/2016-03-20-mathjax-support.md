@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hydeX adds MathJax support to Hyde
+title: Include Math and Scientific symbols in your blog posts, powered by MathJax
 excerpt: MathJax is a powerful Javascript engine to display Math and Scientific symbols. This is an example content post to show MathJax integration in hydeX.
 comments: true
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Social Media icons in Sidebar Menu
+title: Link your Social Media profiles from the Sidebar Menu
 excerpt: Link hydeX to social media profiles through simple modifications to hydeX Jekyll configuration file.
 comments: true
 tags:
@@ -50,11 +50,11 @@ stackoverflow:     http://stackoverflow.com/users/{{ "{{ site.author.stackoverfl
 ```
 In the sample configuration at the start of this post, I have enabled `email`, `github` and `linkedin` integrations for which the icons show up as below for the desktop and responsive mobile interfaces
 
-![Social Media icons - desktop interface](/hydeX/assets/images/followme-desktop2.png)
+<img src="/hydeX/assets/images/followme-desktop2.png" alt="Desktop interface showing Social Media icons" height="399px" width="340px">
 
 On the responsive mobile interface, the sidebar menu changes to the top navigation menu which includes page navigation and social media links.
 
-![Social Media icons - mobile interface](/hydeX/assets/images/followme-mobile2.png)
 
+<img src="/hydeX/assets/images/followme-mobile2.png" alt="Mobile interface showing Social Media icons" height="567px" width="340px">
 
 [1]: http://fontawesome.io/
