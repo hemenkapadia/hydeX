@@ -61,7 +61,7 @@ detach:                         false
 baseurl:                        /hydeX
 permalink:                      /blog/:year/:month/:day/:title.html
 paginate_path:                  /page:num
-paginate:                       10
+paginate:                       8 
 timezone:                       Asia/Calcutta
 
 quiet:                          false
@@ -82,10 +82,21 @@ rel_post_count:                 3
 forkmeribbon:                   show                   # [show|hide]
 forkme_url:                     https://github.com/hemenkapadia/hydeX
 
-# Comments - Disqus Configuration
+# Disqus Configuration
+#
+# CAUTION : If you forked hydeX, please update disqus_src value to that of
+#           of your blog. If you do not have one, change to example.disqus.com.
+#           Keeping it hydex.disqus.com will cause all comments to show up on 
+#           my blog 
+#
 disqus_enable:                  true 
-disqus_src:                     example.disqus.com     # replace this
+disqus_src:                     hydex.disqus.com       # replace this
 
 # Comments - Google Analytics Configuration
+#
+# CAUTION : If you forked hydeX, please update ga_id value to that of your
+#           blog. If you do not have one, change to UA-00000000-0.
+#           Keeping it as is will cause all traffic to show up in my Google #           Analytics setup
+#
 ga_enable:                      true
 ga_id:                          UA-00000000-0          # replace this
