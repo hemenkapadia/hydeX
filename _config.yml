@@ -99,4 +99,4 @@ disqus_src:                     hydex.disqus.com       # replace this
 #           Keeping it as is will cause all traffic to show up in my Google #           Analytics setup
 #
 ga_enable:                      true
-ga_id:                          UA-00000000-0          # replace this
+ga_id:                          UA-87605512-2          # replace this
