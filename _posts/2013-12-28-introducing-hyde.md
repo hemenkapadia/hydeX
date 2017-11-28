@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Introducing Hyde
-excerpt: Introduction to the hyde theme.
+excerpt: Introduction to Hyde, a popular theme for Jekyll.
 comments: true
 tags: 
-    - 'Hemen Kapadia'
-    - hyde
+    - Hyde
     - Jekyll
     - theme
 ---
@@ -39,6 +38,6 @@ Hyde is by preference a forward-thinking project. In addition to the latest vers
 
 ### Download
 
-Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
+Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests. 
 
 Thanks!

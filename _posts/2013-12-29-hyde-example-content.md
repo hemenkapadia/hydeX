@@ -1,16 +1,14 @@
 ---
 layout: post
-title: Example content
-excerpt: An example post that shows the various Markdown and HTML constructs supported by hydeX.
+title: Hyde - HTML and Markdown example content
+excerpt: A showcase post for Markdown and HTML constructs supported by Hyde. Must read for anyone who wants to use this template for their Jekyll site.
 comments: true
 tags:
   - Jekyll
   - theme
-  - Zoomba
-  - Tag 3
-  - Tag 4
-  - Something good
-  - Testing here
+  - Hyde
+  - Features 
+  - HTML Content
 ---
 
 
@@ -58,25 +56,6 @@ adder(2, 6);
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-### MathJax
-
-When $a = f(x)$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
 
 ### Gists via GitHub Pages
 
