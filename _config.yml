@@ -88,6 +88,7 @@ forkme_url:                     https://github.com/hemenkapadia/hydeX
 #           of your blog. If you do not have one, change to example.disqus.com.
 #           Keeping it hydex.disqus.com will cause all comments to show up on 
 #           my blog 
+# Read : https://hemenkapadia.github.io/hydeX/blog/2016/03/25/integrate-disqus.html
 #
 disqus_enable:                  true 
 disqus_src:                     hydex.disqus.com       # replace this
@@ -96,7 +97,9 @@ disqus_src:                     hydex.disqus.com       # replace this
 #
 # CAUTION : If you forked hydeX, please update ga_id value to that of your
 #           blog. If you do not have one, change to UA-00000000-0.
-#           Keeping it as is will cause all traffic to show up in my Google #           Analytics setup
+#           Keeping it as is will cause all traffic to show up in my Google 
+#           Analytics setup
+# Read : https://hemenkapadia.github.io/hydeX/blog/2016/03/24/google-analytics.html
 #
 ga_enable:                      true
 ga_id:                          UA-87605512-2          # replace this
